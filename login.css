@@ -1,0 +1,160 @@
+body{
+    background-image: linear-gradient(to right, darkorchid , hotpink);
+}
+
+table{
+    margin: auto;    
+}
+
+#forgot {
+    color: darkorchid;
+}
+
+.txt {
+    font-size: 18px;
+    text-align: left;
+    margin-left: 34%;
+}
+
+#state {
+    width: 50%;
+    padding: 10px;
+    font-size: 16px;
+    color: rgb(105, 103, 103);
+}
+
+.opt {
+    color: rgb(105, 103, 103);
+}
+
+@media (min-width:750px) {
+    
+    #whiteBlock {
+        background-color: white;
+        color: black;
+        font-family: 'PT sans';
+        text-align: center;
+        width: 50%;
+        margin: auto;
+        margin-top: 100px;
+        padding-top: 50px;
+        border-radius: 20px;
+        padding-bottom: 50px;
+    }
+
+    td{
+        border: 1px solid black;
+        font-size: 20px;
+        border-radius: 5px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    td > a {
+        text-decoration: none;
+        color: black;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    
+    .selected {
+        color: white !important;
+        background-image: linear-gradient(to right, darkorchid , hotpink);
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .btn {
+        cursor: pointer;
+        padding: 20px;
+        background-image: linear-gradient(to right, darkorchid , hotpink);
+        color: white;
+        font-size: 20px;
+        border: 1px solid black;
+        border-radius: 5px;
+        width: 220px;
+    }
+
+    .textbox {
+        width: 220px;
+        font-size: 15px;
+        padding: 10px;
+    }
+
+    .txt {
+        font-size: 18px;
+        text-align: left;
+        margin-left: 34%;
+    }
+
+}
+
+@media (max-width: 749px) {
+    
+    #whiteBlock {
+        background-color: white;
+        color: black;
+        font-family: 'PT sans';
+        text-align: center;
+        width: 75%;
+        margin: auto;
+        margin-top: 100px;
+        padding-top: 50px;
+        border-radius: 20px;
+        padding-bottom: 50px;
+    }
+
+    td{
+        border: 1px solid black;
+        font-size: 20px;
+        border-radius: 5px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    
+    td > a {
+        text-decoration: none;
+        color: black;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    
+    .selected {
+        color: white !important;
+        background-image: linear-gradient(to right, darkorchid , hotpink);
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .btn {
+        cursor: pointer;
+        padding: 20px;
+        background-image: linear-gradient(to right, darkorchid , hotpink);
+        color: white;
+        font-size: 20px;
+        border: 1px solid black;
+        border-radius: 5px;
+        width: 220px;
+    }
+
+    .textbox {
+        width: 220px;
+        font-size: 15px;
+        padding: 10px;
+    }
+
+    .txt {
+        font-size: 18px;
+        text-align: left;
+        margin-left: 25%;
+    }
+
+}
