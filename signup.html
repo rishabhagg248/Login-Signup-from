@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="login.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login/Signup</title>
+    </head>
+    <body>
+        <div id="whiteBlock">
+            <h1>Signup Form</h1>
+            <div id="options">
+                <table>
+                    <tr>
+                        <td><a href="index.html">Login</a></td>
+                        <td class="selected">Signup</td>
+                    </tr>
+                </table>
+            </div>
+            <div id="signup">
+                <form>
+                    <br><br>
+                    <input type="text" id="uname" name="uname" placeholder="Enter Your Name" class="textbox"><br>
+                    <br>
+                    <input type="email" id="mail" name="mail" placeholder="Enter Your Email" class="textbox"><br>
+                    <br>
+                    <input type="password" id="pw" name="pw" placeholder="Create a Password" class="textbox"><br>
+                    <br>
+                    <input type="tel" id="no" name="no" placeholder="Enter Mobile Number" class="textbox"><br>
+                    <br>
+                    <div class="txt">
+                        Gender:<br>
+                        <input type="radio" id="male" name="gender" value="male">
+                        <label for="male" class="opt">Male</label><br>
+                        <input type="radio" id="female" name="gender" value="female">
+                        <label for="female" class="opt">Female</label><br>
+                        <input type="radio" id="notsay" name="gender" value="notsay">
+                        <label for="notsay" class="opt">Prefer not to say</label><br>
+                        <br>
+                        <label for="state">State</label><br>
+                        <select id="state" name="state">
+                            <option value="Unselected">Select</option>
+                            <option value="Gujarat">Gujarat</option>
+                            <option value="Maharashtra">Maharashtra</option>
+                            <option value="Rajasthan">Rajasthan</option>
+                            <option value="other">Other</option>
+                        </select><br>
+                        <br>
+                        Hobbies:<br>
+                        <input type="checkbox" id="cricket" name="hobby" value="cricket">
+                        <label for="cricket" class="opt">Cricket</label><br>
+                        <input type="checkbox" id="reading" name="hobby" value="reading">
+                        <label for="reading" class="opt">Reading</label><br>
+                        <input type="checkbox" id="movies" name="hobby" value="movies">
+                        <label for="movies" class="opt">Watching movies</label><br>
+                        <input type="checkbox" id="other" name="hobby" value="other">
+                        <label for="other" class="opt">Others</label><br>
+                        <br><br>
+                    </div>
+                    <input type="submit" value="Register" class="btn">
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
